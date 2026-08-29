@@ -1,0 +1,2 @@
+receipt_id,contract_id,receipt_date,amount,currency,payment_method,status
+DEMO-RCP-001,DEMO-CON-001,2026-06-15,740000,EGP,Bank Transfer,Cleared

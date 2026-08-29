@@ -1,0 +1,3 @@
+customer_id,customer_token,customer_segment
+DEMO-CUS-001,CUST-TOKEN-001,Local
+DEMO-CUS-002,CUST-TOKEN-002,Overseas

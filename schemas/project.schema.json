@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Project",
+  "type": "object",
+  "required": ["project_id", "project_code", "project_name"],
+  "properties": {
+    "project_id": {"type": "string"},
+    "project_code": {"type": "string"},
+    "project_name": {"type": "string"},
+    "location": {"type": ["string", "null"]},
+    "status": {"type": ["string", "null"]}
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Contract",
+  "type": "object",
+  "required": ["contract_id", "customer_id", "unit_id", "net_contract_value"],
+  "properties": {
+    "contract_id": {"type": "string"},
+    "customer_id": {"type": "string"},
+    "unit_id": {"type": "string"},
+    "contract_date": {"type": ["string", "null"], "format": "date"},
+    "net_contract_value": {"type": "number", "minimum": 0},
+    "currency": {"type": ["string", "null"]},
+    "contract_status": {"type": ["string", "null"]}
+  },
+  "additionalProperties": true
+}

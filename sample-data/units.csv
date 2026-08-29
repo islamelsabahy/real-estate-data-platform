@@ -1,0 +1,4 @@
+unit_id,project_id,unit_code,property_type,area_sqm,list_price,currency,inventory_status
+DEMO-U-001,DEMO-P-001,A-101,Apartment,145,6500000,EGP,Available
+DEMO-U-002,DEMO-P-001,A-102,Apartment,170,7600000,EGP,Sold
+DEMO-U-003,DEMO-P-002,B-201,Townhouse,220,10500000,EGP,Reserved

@@ -1,0 +1,2 @@
+contract_id,customer_id,unit_id,contract_date,net_contract_value,currency,contract_status
+DEMO-CON-001,DEMO-CUS-001,DEMO-U-002,2026-06-15,7400000,EGP,Active

@@ -1,0 +1,22 @@
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+secrets/
+
+# Real/private data
+production-data/
+private/
+exports/
+raw-real-data/
+
+# Database
+*.db
+*.sqlite
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

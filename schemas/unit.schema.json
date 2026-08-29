@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Unit",
+  "type": "object",
+  "required": ["unit_id", "project_id", "unit_code", "inventory_status"],
+  "properties": {
+    "unit_id": {"type": "string"},
+    "project_id": {"type": "string"},
+    "unit_code": {"type": "string"},
+    "property_type": {"type": ["string", "null"]},
+    "area_sqm": {"type": ["number", "null"], "minimum": 0},
+    "list_price": {"type": ["number", "null"], "minimum": 0},
+    "inventory_status": {"type": "string"}
+  },
+  "additionalProperties": true
+}
